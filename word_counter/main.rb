@@ -5,7 +5,7 @@ raw_text = %{The problem breaks down into two parts. First, given some text as a
 
 word_list = words_from_string(raw_text)
 counts = count_frequency(word_list)
-sorted = counts.sort_by {|word, count| count}
+sorted = counts.sort_by {|word, count| count}kakao
 top_five = sorted.last(5)
 
 for i in 0...5
